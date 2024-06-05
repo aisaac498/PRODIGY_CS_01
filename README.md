@@ -67,5 +67,9 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 - Click "Encrypt" to encrypt the message or "Decrypt" to decrypt it.
 - Use the moon/sun icon at the top right to switch between light and dark modes.
 
+## Developer Notes
+- This application was developed for cross-platform compatibility but primarily tested on Windows machines.
+- Ensure that all required images (`sun.png`, `moon.png`) are present in the `images` directory.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
