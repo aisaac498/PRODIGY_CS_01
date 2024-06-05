@@ -18,14 +18,14 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/aisaac498/PRODIGY_CS_01.git
-    cd caesar-cipher
+    git clone https://github.com/aisaac498/PRODIGY_CS_04.git
+    cd PRODIGY_CS_04
     ```
 
 2. **Create and Activate a Virtual Environment**:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    python -m venv cphr
+    source cphr/bin/activate  # On Windows, use `cphr\Scripts\activate`
     ```
 
 3. **Install the Required Packages**:
@@ -38,18 +38,18 @@ This application allows users to encrypt and decrypt messages using the Caesar C
     python caesar_cipher.py
     ```
 
-### For Progidy Reviewers:
+### For Prodigy Reviewers:
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/your-username/caesar-cipher.git
-    cd caesar-cipher
+    git clone https://github.com/aisaac498/PRODIGY_CS_04.git
+    cd PRODIGY_CS_04
     ```
 
 2. **Create and Activate a Virtual Environment**:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    python -m venv cphr
+    source cphr/bin/activate  # On Windows, use `cphr\Scripts\activate`
     ```
 
 3. **Install the Required Packages**:
@@ -69,4 +69,4 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 - Use the moon/sun icon at the top right to switch between light and dark modes.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
