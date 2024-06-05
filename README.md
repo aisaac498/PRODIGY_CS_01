@@ -19,7 +19,7 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 1. **Clone the Repository**:
     ```sh
     git clone https://github.com/aisaac498/PRODIGY_CS_04.git
-    cd PRODIGY_CS_04
+    cd PRODIGY_CS_01
     ```
 
 2. **Create and Activate a Virtual Environment**:
@@ -43,7 +43,7 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 1. **Clone the Repository**:
     ```sh
     git clone https://github.com/aisaac498/PRODIGY_CS_04.git
-    cd PRODIGY_CS_04
+    cd PRODIGY_CS_01
     ```
 
 2. **Create and Activate a Virtual Environment**:
