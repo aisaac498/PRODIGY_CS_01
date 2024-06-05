@@ -39,18 +39,24 @@ This application allows users to encrypt and decrypt messages using the Caesar C
 
 ### For Prodigy Reviewers:
 
-1. **Create and Activate a Virtual Environment**:
+
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/aisaac498/PRODIGY_CS_01.git
+    ```
+
+2. **Create and Activate a Virtual Environment**:
     ```sh
     python -m venv cphr
     source cphr/bin/activate  # On Windows, use `cphr\Scripts\activate`
     ```
 
-2. **Install the Required Packages**:
+3. **Install the Required Packages**:
     ```sh
     pip install -r requirements.txt
     ```
 
-3. **Run the Application**:
+4. **Run the Application**:
     ```sh
     python caesar_cipher.py
     ```
