@@ -80,13 +80,14 @@ def paste_message() -> None:
 
 # Function to set up the GUI
 def setup_gui():
+    # Set appearance and theme of the CustomTkinter application
     ctk.set_appearance_mode("System")  # Set appearance mode (System, Dark, Light)
     ctk.set_default_color_theme("blue")  # Set the color theme
 
     global root
     root = ctk.CTk()  # Initialize the main window
     root.title("Caesar Cipher")
-    root.geometry("500x600")  # Increased height and width to accommodate the images and other widgets
+    root.geometry("500x600")  # Set the window size
 
     # Create a main frame to hold all widgets
     main_frame = ctk.CTkFrame(root, width=480, height=580)
@@ -98,8 +99,8 @@ def setup_gui():
 
     # Light/Dark mode toggle image inside main_frame
     global icon_label, is_dark_mode, moon_img, sun_img
-    moon_img = ImageTk.PhotoImage(Image.open("moon.png"))
-    sun_img = ImageTk.PhotoImage(Image.open("sun.png"))
+    moon_img = ImageTk.PhotoImage(Image.open("images/moon.png"))
+    sun_img = ImageTk.PhotoImage(Image.open("images/sun.png"))
     is_dark_mode = True
     icon_label = tk.Label(main_frame, image=moon_img, cursor="hand2")
     icon_label.pack(pady=10, anchor='ne')
